@@ -1,0 +1,14 @@
+==================================================
+BILAN DE L'ÉVALUATION DU RÉALISME (FID)
+==================================================
+Dossier de Référence (Réel) : /home/bdusollier/Stage/Adaptation_domaine/measures/Ref_filtered
+Dossier Initial (Synthétique) : /home/bdusollier/Stage/Adaptation_domaine/measures/../data2/input/images
+Dossier Amélioré (Output)     : /home/bdusollier/Stage/Adaptation_domaine/measures/../data2/output
+--------------------------------------------------
+> FID (Initial vs Référence)  : 122.2817
+> FID (Amélioré vs Référence) : 95.6245
+--------------------------------------------------
+CONCLUSION :
+Succès ! Le réalisme global s'est amélioré.
+Le score FID a diminué de 26.6572 points.
+==================================================

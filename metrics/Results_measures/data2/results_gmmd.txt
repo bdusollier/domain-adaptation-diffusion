@@ -1,0 +1,14 @@
+==================================================
+BILAN DE L'ÉVALUATION DU RÉALISME TEXTURAL (GMMD)
+==================================================
+Dossier d'Ancrage (Réel)     : /home/bdusollier/Stage/Adaptation_domaine/measures/Ref_filtered
+Dossier Initial (Évaluation) : /home/bdusollier/Stage/Adaptation_domaine/measures/../data2/input/images
+Dossier Amélioré (Output)     : /home/bdusollier/Stage/Adaptation_domaine/measures/../data2/output
+--------------------------------------------------
+> GMMD (Initial vs Référence)  : 0.252866
+> GMMD (Amélioré vs Référence) : 0.208706
+--------------------------------------------------
+CONCLUSION :
+Succès ! Le réalisme des textures s'est amélioré.
+Le score GMMD a diminué de 0.044160 points.
+==================================================

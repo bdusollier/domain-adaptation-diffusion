@@ -1,0 +1,17 @@
+==================================================
+PROJECTION ACP DES DISTRIBUTIONS D'IMAGES
+==================================================
+Espace de caractéristiques : gram
+  Modèle                : -
+  Normalisation avant ACP : std
+  Winsorisation (clip)   : [5, 95]
+Dossier de Référence (Réel)     : /home/bdusollier/Stage/Adaptation_domaine/measures/Ref_filtered   (800 images)
+Dossier Initial (Synthétique)   : /home/bdusollier/Stage/Adaptation_domaine/measures/../data2/input/images (2923 images)
+Dossier Amélioré (Output)       : /home/bdusollier/Stage/Adaptation_domaine/measures/../data2/output (2923 images)
+--------------------------------------------------
+> Variance PC1 : 43.98 %
+> Variance PC2 : 8.06 %
+> Variance cumulée (PC1+PC2) : 52.03 %
+--------------------------------------------------
+Graphique sauvegardé : /home/bdusollier/Stage/Adaptation_domaine/measures/Results_measures/data2/pca_gram.png
+==================================================

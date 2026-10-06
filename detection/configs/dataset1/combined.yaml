@@ -1,0 +1,9 @@
+path: dataset1
+train:
+  - synthetic/images/train
+  - realistic/images/train
+val:
+  - synthetic/images/val
+  - realistic/images/val
+nc: 1
+names: ["target"]

@@ -1,0 +1,5 @@
+path: dataset3/test2
+train: images
+val: images
+nc: 1
+names: ["target"]

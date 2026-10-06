@@ -1,0 +1,17 @@
+[general]
+resolution = [1024, 1024]
+caption_extension = ".txt"
+batch_size = 1
+enable_bucket = true
+bucket_no_upscale = false
+min_bucket_reso = 512
+max_bucket_reso = 1536
+shuffle_caption = false
+keep_tokens = 0
+
+[[datasets]]
+[[datasets.subsets]]
+image_dir = "./Dataset"
+num_repeats = 1
+shuffle_caption = false
+keep_tokens = 0

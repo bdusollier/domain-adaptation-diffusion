@@ -1,0 +1,96 @@
+# ==========================================
+# Git Ignore - Stage Repository
+# ==========================================
+
+# Toujours conserver les fichiers .gitkeep pour préserver la structure des dossiers
+!.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments & package manager caches
+.venv/
+venv/
+env/
+ENV/
+.myenv/
+.uv_cache/
+uv_cache/
+.cache/
+
+# Archives (ne pas versionner)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bak
+
+# Modèles et Poids volumineux (exclus par défaut)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+
+# Contenu des dossiers de données, références et modèles de base
+**/dataset/**
+!**/dataset/**/
+**/Dataset/**
+!**/Dataset/**/
+**/data/**
+!**/data/**/
+LoRa/models/*
+ControlNet/models/*
+ComfyUI/models/**
+!ComfyUI/models/**/
+detection/weights/*
+metrics/Reference/**
+!**/Reference/**/
+metrics/Ref_filtered/**
+metrics/Ref2/**
+!**/.gitkeep
+
+# Caches de métriques
+*.npz
+**/cache/
+
+# Résultats et Logs
+Results/
+results/
+output/
+outputs/
+slurm_logs/
+*.log
+slurm-*.out
+runs/
+tensorboard/
+
+# IDEs et OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~

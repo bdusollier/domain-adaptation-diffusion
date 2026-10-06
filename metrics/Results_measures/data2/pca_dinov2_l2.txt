@@ -1,0 +1,17 @@
+==================================================
+PROJECTION ACP DES DISTRIBUTIONS D'IMAGES
+==================================================
+Espace de caractéristiques : dinov2
+  Modèle                : dinov2-vit-b-14
+  Normalisation avant ACP : l2
+  Winsorisation (clip)   : [5, 95]
+Dossier de Référence (Réel)     : /home/bdusollier/Stage/Adaptation_domaine/measures/Ref_filtered   (800 images)
+Dossier Initial (Synthétique)   : /home/bdusollier/Stage/Adaptation_domaine/measures/../data2/input/images (2923 images)
+Dossier Amélioré (Output)       : /home/bdusollier/Stage/Adaptation_domaine/measures/../data2/output (2923 images)
+--------------------------------------------------
+> Variance PC1 : 10.23 %
+> Variance PC2 : 8.88 %
+> Variance cumulée (PC1+PC2) : 19.11 %
+--------------------------------------------------
+Graphique sauvegardé : /home/bdusollier/Stage/Adaptation_domaine/measures/Results_measures/data2/pca_dinov2_l2.png
+==================================================

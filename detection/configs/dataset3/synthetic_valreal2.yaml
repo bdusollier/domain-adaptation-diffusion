@@ -1,0 +1,5 @@
+path: dataset3
+train: synthetic/images/train
+val: val_real2/images
+nc: 1
+names: ["target"]
